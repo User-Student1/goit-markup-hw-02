@@ -1,3 +1,6 @@
+.logo-studio {
+    color: #2e2f42;
+}
 body {
     font-family: 'Roboto', sans-serif;
     color: #434455;
@@ -18,7 +21,7 @@ button {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     font-weight: 700;
-    line-height: 1.5;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
@@ -68,6 +71,17 @@ button {
 .hero-button:focus {
     background-color: #404bbf;
 }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
 .benefits-subtitle {
     font-size: 20px;
     font-weight: 500;
@@ -92,6 +106,9 @@ button {
     text-align: center;
     color: #2e2f42;
 }
+.team-title, .portfolio-title {
+    text-transform: capitalize;
+}
 .team-item {
     background-color: #ffffff;
 }
@@ -107,6 +124,9 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+.contact-info {
+    font-style: normal;
 }
 .portfolio-title {
     font-size: 36px;
@@ -135,5 +155,8 @@ button {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color: #f4f4fd;
+}
+.footer .logo-studio {
     color: #f4f4fd;
 }
